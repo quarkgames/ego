@@ -1,7 +1,9 @@
 REBAR = rebar
 
-.PHONY: rebar data
+.PHONY: rebar data all
 .SECONDARY:
+
+all: data rebar
 
 rebar:  CMD = compile
 rebar:
